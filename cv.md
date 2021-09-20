@@ -29,7 +29,7 @@ I am reliable and dependable and often seek new responsibilities within a wide r
 
 
 ### Code Example:
-```javascript
+```js
 const deepCount = (arr) => arr.reduce((acc, cur) => acc + (Array.isArray(cur) ? deepCount(cur) : 0), arr.length)
 ```
 
