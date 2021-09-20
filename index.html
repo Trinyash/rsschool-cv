@@ -3,9 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/style.css">
 </head>
-<body>
-
+<body class="container">
+<header class="header">
+    <div class="portrait">
+        <img src="images/Trinyash_icon_compressed.png" alt="Trinyash portrait">
+    </div>
+    <div class="presentation">
+        <h1>Ivan Ivanov</h1>
+        <h2>Junior Frontend Developer</h2>
+    </div>
+</header>
+<div class="content">
+    <main class="main">
+        <section class="contacts">
+            <h3>Contacts</h3>
+            <ul>
+                <li>
+                    <a href="mailto:Trinyash@protonmail.com?subject=%5Bjob+offer%5D+">E-mail:
+                        Trinyash@pm.me</a></li>
+                <li>
+                    <a href="https://github.com/Trinyash">GitHub: Trinyash</a></li>
+                <li>
+                    <a href="https://gitlab.com/Trinyash">GitLab: Trinyash</a></li>
+                <li>
+                    <a href="https://bitbucket.org/Trinyash">Bitbucket: Trinyash</a></li>
+                <li>
+                    <a href="https://discordapp.com/users/884834457767534652">Discord: Trinyash#5468</a>
+                </li>
+            </ul>
+        </section>
+        <section class="skills">
+            <h3>Skills</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS/SASS</li>
+                <li>JavaScript (Basic)</li>
+                <li>Git</li>
+            </ul>
+        </section>
+        <section class="languages">
+            <h3>Languages</h3>
+            <ul>
+                <li>
+                    <p>English</p>
+                    <p>A2</p>
+                </li>
+                <li>
+                    <p>Russian</p>
+                    <p>native speaker</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <aside class="aside">
+        <section class="about">
+            <h4>About</h4>
+            <p>I have good interpersonal skills, am an excellent team worker and very willing to learn and develop new
+                skills.</p>
+            <p>I am reliable and dependable and often seek new responsibilities within a wide range of employment
+                areas.</p>
+        </section>
+        <section class="code-example">
+            <h5>Code example</h5>
+            <code>const deepCount = (arr) => arr.reduce((acc, cur) => acc + (Array.isArray(cur) ? deepCount(cur) : 0),
+                arr.length)</code>
+        </section>
+    </aside>
+</div>
+<footer class="footer">
+    <div class="footer-links">
+        <!-- https://github.com/logos -->
+        <div class="footer-link">
+            <a href="https://github.com/Trinyash" target="_blank">
+                <img src="images/GitHub.logo.png" alt="GitHub logo" width="120" height="44">
+            </a>
+        </div>
+        <!-- https://rs.school/images/rs_school_js.svg -->
+        <div class="footer-link">
+            <a href="https://rs.school/js/" target="_blank">
+                <img src="images/rs_school_js.logo.png" alt="RS School logo" width="120" height="44">
+            </a>
+        </div>
+    </div>
+    <div class="created">
+        <p>Created in 2021</p>
+    </div>
+</footer>
 </body>
 </html>
