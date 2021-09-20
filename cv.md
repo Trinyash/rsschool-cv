@@ -12,7 +12,7 @@
 * **e-mail:** [Trinyash@protonmail.com][email link]
 * **GitHub:** [https://github.com/Trinyash][github link]
 * **GitLab:** [https://gitlab.com/Trinyash/][gitlab link]
-* **Bitbucket:** [https://gitlab.com/Trinyash][bitbucket link]
+* **Bitbucket:** [https://bitbucket.org/Trinyash][bitbucket link]
 * **Discord:** [Trinyash#5468][discord link]
 
 
